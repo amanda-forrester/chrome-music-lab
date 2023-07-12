@@ -4,26 +4,28 @@
   "description": "",
   "main": "build/Main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "webpack"
   },
   "author": "Yotam Mann",
   "dependencies": {
-    "autoprefixer-loader": "^2.1.0",
+    "autoprefixer": "^6.3.1",
+    "autoprefixer-loader": "^3.2.0",
     "component-resolver-webpack": "*",
-    "css-loader": "^0.17.0",
-    "domready": "^1.0.8",
+    "css-loader": "^0.23.1",
+    "domready": "1.0.8",
     "file-loader": "*",
     "html-loader": "*",
-    "imports-loader": "^0.6.5",
-    "node-sass": "^3.4.2",
+    "imports-loader": "0.6.5",
+    "node-sass": "^7.0.1",
     "raw-loader": "*",
-    "sass-loader": "^2.0.1",
-    "soundfont-player": "^0.4.0",
-    "startaudiocontext": "^1.1.0",
-    "style-loader": "*",
-    "teoria": "^2.1.1",
+    "sass-loader": "^3.1.2",
+    "soundfont-player": "0.4.0",
+    "startaudiocontext": "1.1.0",
+    "style-loader": "^0.13.0",
+    "teoria": "2.1.1",
     "url-loader": "*",
-    "webfontloader": "^1.6.10",
-    "webpack": "^1.12.11"
+    "webfontloader": "1.6.10",
+    "webpack": "1.12.11"
   }
 }

@@ -4,7 +4,8 @@
   "description": "",
   "main": "build/Main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "webpack"
   },
   "author": "Yotam Mann",
   "dependencies": {
@@ -14,7 +15,7 @@
     "domready": "^1.0.8",
     "file-loader": "^0.8.5",
     "json-loader": "^0.5.4",
-    "node-sass": "^3.4.2",
+    "node-sass": "^7.0.1",
     "sass-loader": "^3.1.2",
     "startaudiocontext": "^1.1.0",
     "style-loader": "^0.13.0",

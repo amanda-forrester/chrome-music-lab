@@ -39,7 +39,7 @@ module.exports = {
 		loaders: [
 			{
 				test: /\.scss$/,
-				loader: "style!css!autoprefixer!sass"
+				loader: "style!css!autoprefixer-loader!sass"
 			},
 			{
 				test: /\.json$/,

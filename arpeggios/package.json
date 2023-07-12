@@ -4,7 +4,8 @@
   "description": "",
   "main": "build/Main.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 0"
+    "test": "echo \"Error: no test specified\" && exit 0",
+    "build": "webpack"
   },
   "author": "Yotam Mann",
   "devDependencies": {
@@ -13,7 +14,7 @@
     "file-loader": "^0.8.4",
     "json-loader": "^0.5.2",
     "node-libs-browser": "^0.5.2",
-    "node-sass": "^3.4.2",
+    "node-sass": "^7.0.1",
     "sass-loader": "^1.0.2",
     "style-loader": "^0.12.3",
     "url-loader": "^0.5.6",
